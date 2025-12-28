@@ -3,9 +3,9 @@ window.onload = function () {
   // ===== SAVE DATA =====
   localStorage.setItem("Name", "Leen Ibrahim");
   localStorage.setItem("ID", "21");
-  localStorage.setItem("Email", "leen@gmail.com");
-  localStorage.setItem("Phone", "011111111111");
-  localStorage.setItem("Address", "Banha");
+  localStorage.setItem("Email", "leenibrahim217@gmail.com");
+  localStorage.setItem("Phone", "01234567890");
+  localStorage.setItem("Address", "Maadi");
 
   localStorage.setItem(
     "LinkedIn",
@@ -36,4 +36,5 @@ localStorage.setItem("ProfilePic", "leeno/leen.jpeg");
 
   document.getElementById("profilePic").src =
     localStorage.getItem("ProfilePic");
+
 };
